@@ -1,0 +1,24 @@
+# Core dependencies
+torch>=1.12.0
+torchvision>=0.13.0
+numpy>=1.21
+matplotlib>=3.4
+tqdm>=4.62
+Pillow>=8.4
+scipy>=1.7
+
+# For logging and visualization
+tensorboard>=2.8
+seaborn>=0.11
+
+# For notebook support
+jupyterlab>=3.0
+
+# Optional: accelerate training on various devices
+accelerate>=0.20
+
+# Optional: for handling configuration
+omegaconf>=2.2
+
+# If using CUDA, include this (optional depending on environment)
+# pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu117
